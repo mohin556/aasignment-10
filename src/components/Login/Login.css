@@ -1,0 +1,85 @@
+.top {
+    color: limegreen;
+    margin-left: 70px;
+}
+h1:hover{
+    color: magenta;
+   
+}
+.formBox{
+
+        color :black;
+        text-align: left;
+        border: 1px solid black;
+        background-color:white;
+        width:320px;
+        height:230px;
+        padding: 35px;
+        margin-left: 400px;
+        margin-top: 50px;
+        border: 1px solid gray;
+        
+}
+.remember{
+    margin-left: 75px;
+    font-size: 13px;
+    color:limegreen ;
+}
+.input{
+    margin-top: 15px;
+    margin-bottom:10px ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    width: 300px;
+    font-weight: bold;
+    outline: none;
+
+}
+h2:hover{
+    color: limegreen;
+}
+.loginbtn{
+    margin-top: 25px;
+    margin-left: 6px;
+    width: 310px;
+    height: 34px;
+    background-color: limegreen;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid gray;
+    outline: none;
+}
+.loginbtn:hover{
+background-color: black;
+border: 2px solid limegreen;
+color: limegreen;
+}
+.google{
+    width: 350px;
+    height: 40px;
+    font-size: 16px;
+    color: black;
+    border-radius: 25px;
+    font-weight: 22px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color:  limegreen;
+}
+.google:hover{
+    background-color: yellow;
+    border: 1px solid limegreen;
+}
+.googlebtn{
+    margin-left: 430px;
+    margin-top: 80px;
+    position: relative;
+}
+
+.googlebtn img{
+    position: absolute;
+    width: 30px;
+    top: 6px;
+    left: 8px;
+}

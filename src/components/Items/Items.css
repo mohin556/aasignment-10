@@ -1,0 +1,42 @@
+#dollarCount{
+    padding: 0;
+border: none;
+background: none;
+}
+
+.items{
+    border: 0px solid lightgrey  ;
+    outline: none;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+    width: 300px;
+    height: 360px;
+    margin: 25px;
+    margin-left: 50px;
+    float: left;
+    padding: 13px;
+    background-color: white;
+    border-radius: 8px;
+    position: relative;
+
+}
+.buyButton{
+    background-color:limegreen;
+    padding: 8px;
+    width: 95px;
+    border: 2px solid lightsteelblue;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    
+    margin-right: 20px; 
+    
+    position: relative;
+}
+.dollar{
+    color:limegreen ;
+    font-size: 25px;
+   position: absolute;
+  margin: 0px;
+   
+  
+}

@@ -1,0 +1,37 @@
+.hello{
+    color: blue;
+}
+.list-container{
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.list{
+    text-align: left;
+    font-size: 14px;
+   
+
+}
+.delet{
+    width: 22px;
+    height: 22px;
+    
+}
+.edit{
+    width: 25px;
+    height: 25px;
+   
+    
+}
+.editing{
+    
+}
+.manage{
+    text-decoration: none;
+    color: white;
+}
+.edit-button{
+ padding: 0;
+border: none;
+background: none;
+
+}

@@ -1,0 +1,30 @@
+.oderContainer{
+    background-color: lightslategrey;
+    height: 100vh;
+    text-align: center;
+}
+.table1 {
+    width:90%;
+    
+    
+    
+   
+}
+.nameList{
+     color:black; 
+     font-size: 25px;
+     font-weight: bold; 
+     background-color: limegreen;
+    
+     border-radius: 15px;
+     border: 1px solid black;
+     box-shadow: 10px 10px 10px 10px black;
+     
+}
+.userDetail{
+  
+    text-align: left;
+    padding: 15px;
+
+ 
+}

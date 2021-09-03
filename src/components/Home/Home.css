@@ -1,0 +1,69 @@
+.headers img{
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    
+}
+.headers img:hover{
+    background-color: orange;
+}
+
+.option {
+    
+    float: right;
+    position: relative;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 8px;
+    margin-left: 200px;
+    padding: 10px;
+    
+}
+.serachPortion{
+margin-bottom: 20px;
+
+}
+.a:hover{
+    background-color:lightgrey;
+}
+.a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    
+    padding: 10px;
+    border-radius: 3px;
+}
+.button{
+    padding: 8px;
+    text-decoration: none;
+    width: 80px;
+    border: 1px solid lightsteelblue;
+    border-radius: 5px;
+    color: white;
+    background-color:limegreen ;
+    margin-right: 10px;
+}
+.searching{
+    
+    width: 250px;
+    height: 35px;
+    margin-top: 80px;
+    font-weight: bold;
+    color: black;
+    margin-left: 345px;
+    padding: 10px;
+    border: 1px solid black; 
+    border-radius: 3px; 
+    background-color: lightsteelblue;
+
+}
+.search-button{
+    width: 100px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: white;
+    background-color:limegreen ; 
+    
+}
