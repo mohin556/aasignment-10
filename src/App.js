@@ -63,9 +63,9 @@ function App() {
           <Route path="/manageitems">
            <ManageItems></ManageItems>
           </Route>
-          <PrivateRoute path="/oders">
+          <Route path="/oders">
            <Oders></Oders>
-          </PrivateRoute>
+          </Route>
          
 
 

@@ -15,44 +15,46 @@ const Checkout = ({item}) => {
     const [logInUser,setLogInUser] = useContext(UserContex);
     const [select,setSelected] = useState([]);
    const [productInfo,setProductInfo] = useState({});
-   console.log(productInfo)
+  //  console.log(productInfo)
  
   //  console.log(productInfo.name)
    
     useEffect(()=>{
-        fetch(`https://shielded-ocean-99963.herokuapp.com/items` )
+        fetch(`https://blooming-springs-99818.herokuapp.com/items` )
         .then(res => res.json())
         .then( data => setSelected(data))
 
     },[])
   
-    let newSelect = select.find(({_id}) =>_id == id );
-  useEffect(()=>{
+    let newSelect = select.find(pd=>pd._id == id );
+  // useEffect(()=>{
   
-    setProductInfo(newSelect )
+  //   setProductInfo(newSelect )
 
-  },[productInfo?.name])
+  // },[productInfo?.name])
 
-    // const {name,price} = productInfo;
-  var name = productInfo?.name
-  var price = productInfo?.price
-  console.log(name,price)
+   
+ 
+  
 const checkoutHandle =(id) => {
-  //  const addOder = {name,price}
-  const addProduct = {name,price}
-  // console.log(addProduct)
-  console.log(name,price)
-  console.log(productInfo?.name)
-   const url =`https://shielded-ocean-99963.herokuapp.com/oderAdded/${id}`;
+  
+  
+  
+
+  
+   const url =`https://blooming-springs-99818.herokuapp.com/oderAdded`;
   
    fetch(url,{
      method: 'POST',
      headers: {
        'content-type': 'application/json'
      },
-     body: JSON.stringify(productInfo?.name,productInfo?.price)
+     body: JSON.stringify(newSelect)
    })
-   .then(res => console.log('server side response', res))
+   .then(res => {
+                  alert('server side response', )
+                  console.log(res)
+                                })
 
 
 }

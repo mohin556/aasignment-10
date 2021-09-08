@@ -4,7 +4,7 @@ import './Items.css'
 
 
 const pricingBtn=(id)=>{
- const url = `https://shielded-ocean-99963.herokuapp.com/newitems/${id}`;
+ const url = `https://blooming-springs-99818.herokuapp.com/newitems/${id}`;
  fetch(url)
  .then(res => res.json())
  .then(item => {

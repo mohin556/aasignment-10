@@ -24,7 +24,7 @@ const Admin = () => {
        weight : data.weight
        
      };
-      const url =`https://shielded-ocean-99963.herokuapp.com/addEvent`;
+      const url =`https://blooming-springs-99818.herokuapp.com/addEvent`;
       console.log(eventData)
       fetch(url,{
         method: 'POST',

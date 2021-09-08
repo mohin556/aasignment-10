@@ -10,7 +10,7 @@ const Home = () => {
      
 
       useEffect(()=>{
-          fetch('https://shielded-ocean-99963.herokuapp.com/items')
+          fetch('https://blooming-springs-99818.herokuapp.com/items')
           .then(res => res.json())
           .then(data=> setItems(data))
       },[])
@@ -31,12 +31,12 @@ const Home = () => {
            <div className="serachPortion" >
                <input className="searching" type="search" name="" id="" placeholder="search book" />
                <button className="search-button">Search</button>
-               
+            
            </div>
-           <div >
+           <div   >
                {
                 
-                items.map( item =>  <Items item={item}></Items>)
+                items.map( item =>  <Items  item={item}></Items>)
                 
                }
                

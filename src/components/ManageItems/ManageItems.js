@@ -16,12 +16,12 @@ const ManageItems = () => {
   // console.log(products)
     
   useEffect(()=>{
-      fetch('https://shielded-ocean-99963.herokuapp.com/editing')
+      fetch('https://blooming-springs-99818.herokuapp.com/editing')
       .then(res => res.json())
       .then(data=> setProducts(data))
   },[])
   const handleDelete = () =>{
-    fetch(`https://shielded-ocean-99963.herokuapp.com/deletit/${products._id}`,{
+    fetch(`https://blooming-springs-99818.herokuapp.com/deletit/${products._id}`,{
       method: 'DELETE',
     })
     .then(res => res.json())

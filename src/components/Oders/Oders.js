@@ -11,7 +11,7 @@ const Oders = () => {
     console.log(oders)
     const {id} = useParams();
     useEffect(()=>{
-        fetch('https://shielded-ocean-99963.herokuapp.com/oders')
+        fetch('https://blooming-springs-99818.herokuapp.com/oders')
         .then(res => res.json())
         .then(data=> setOders(data))
     },[])
